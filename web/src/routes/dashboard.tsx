@@ -116,8 +116,8 @@ function Dashboard() {
               <CardDescription>Common tasks</CardDescription>
             </CardHeader>
             <CardContent className="space-y-2">
-              <Button variant="outline" className="w-full justify-start">
-                View Profile
+              <Button variant="outline" className="w-full justify-start" asChild>
+                <Link to="/profile"> View Profile </Link> 
               </Button>
               <Button
                 variant="outline"
